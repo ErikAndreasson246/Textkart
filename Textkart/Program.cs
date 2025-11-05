@@ -14,7 +14,7 @@ class program
         {
 
 
-            int statPoints = 100;
+            int statPoints = 150;
 
 
 
@@ -22,7 +22,7 @@ class program
             string carName = Console.ReadLine();
 
 
-            int speedPoints = GetValue("How many points do you want to spend on speed? 1 point = 5km/h");
+            int speedPoints = GetValue("How many points do you want to spend on speed? 1 point = 5km/h. You can");
             int maxSpeed = speedPoints * 5;
             statPoints -= speedPoints;
 
