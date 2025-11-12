@@ -166,7 +166,7 @@ class program
             {
 
                 // Lista på alla banor
-                List<string> courses = ["Curvy Curves", "Straight Speed", "Pacy Pivots", "Custom Course"];
+                List<string> courses = ["Curvy Curves", "Straight Speed", "Pacy Pivots", "Custom Course (This one might not work as intended since I made some changes to the calculation but it's still usable)"];
 
                 // Skriver ut alla bilar och visar upp en lista av banalternativen
 
@@ -313,8 +313,6 @@ class program
                 }
 
             }
-
-
         }
             // Detta är en funktion som sköter statpoint processen
 
@@ -420,7 +418,7 @@ class program
                             Console.WriteLine();
 
                             course.DistanceBetweenTurns = GetCourseValue("How many Degrees do you want on your turns?");
-                            course.DistanceBetweenTurns = GetCourseValue("How long distance do you want in beetween your turns? (This will not be realistic so you can put any number here, even if it's longer than the course)");
+                            course.DistanceBetweenTurns = GetCourseValue("How long distance do you want in beetween your turns?");
                             course.CourseLenght = GetCourseValue("How long do you want your course to be?");
                             isChoosing = false;
                             break;
